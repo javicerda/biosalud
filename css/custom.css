@@ -18136,8 +18136,6 @@ p {
 .comment-form-wrapper,
 .contact-form-wrapper {
     padding: 50px 40px;
-    background: #fff;
-    border: 1px solid #F4EEFB;
     margin-left: 0px;
     border-radius: 10px;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -18169,8 +18167,8 @@ p {
 .contact-form-wrapper .contact-form input,
 .contact-form-wrapper .contact-form textarea {
     padding: 18px 25px;
-    border-radius: 30px;
-    border: 1px solid #F4EEFB;
+    border-radius: 10px;
+    border: 1px solid #4E47AE;
     margin-bottom: 25px;
     width: 100%;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -18200,7 +18198,7 @@ p {
 .contact-form-wrapper .comment-form textarea:focus,
 .contact-form-wrapper .contact-form input:focus,
 .contact-form-wrapper .contact-form textarea:focus {
-    border-color: #3763EB;
+    border-color: #4E47AE;
 }
 
 .comment-form-wrapper .comment-form textarea,
@@ -18491,6 +18489,18 @@ span.wow {
 
 .d-flex.justify-content-around img {
     max-width: 80px;
+    width: 100%;
+}
+
+#contact {
+    background-color: #E4E3FF;
+}
+
+#contact label {
+    color: #09018C;
+}
+
+.contact-form {
     width: 100%;
 }
 

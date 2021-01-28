@@ -22,6 +22,7 @@ Index Of css
 ===========================*/
 
 $blue-bio: #0F05C1;
+$blue-bio-dark: #09018C;
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
 html {
 	scroll-behavior: smooth;
@@ -120,6 +121,7 @@ h1 {
 
 h2 {
 	font-size: 40px;
+	color: $blue-bio-dark;
 }
 
 @media (max-width: 767px) {
@@ -156,7 +158,7 @@ p {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 26px;
-	color: #6A7C92;
+	color:$blue-bio-dark;
 	margin: 0px;
 }
 

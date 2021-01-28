@@ -117,6 +117,7 @@ h1 {
 
 h2 {
     font-size: 40px;
+    color: #09018C;
 }
 
 @media (max-width: 767px) {
@@ -152,7 +153,7 @@ p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    color: #6A7C92;
+    color: #09018C;
     margin: 0px;
 }
 

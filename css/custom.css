@@ -15838,7 +15838,7 @@ p {
 
 .theme-btn-outline {
     display: inline-block;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -18487,6 +18487,11 @@ main {
 span.wow {
     color: #09018C;
     font-weight: 400;
+}
+
+.d-flex.justify-content-around img {
+    max-width: 80px;
+    width: 100%;
 }
 
 .copyright {

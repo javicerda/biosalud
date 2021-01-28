@@ -18403,11 +18403,6 @@ main {
 
 .mobile-btn {
     padding: 10px 30px 20px;
-    background: #0bd272;
-    text-align: left;
-    line-height: 30px;
-    font-size: 20px;
-    color: #fff;
     border-radius: 50px;
     right: 0;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -18418,14 +18413,42 @@ main {
     box-shadow: 2px 2px 10px gray;
 }
 
+.mobile-btn.whatsapp {
+    background: #0bd272;
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.mobile-btn.phone {
+    padding: 10px 23px 20px;
+    background: #BF159B;
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 15px;
+}
+
 .lni.lni-whatsapp {
     font-size: 20px;
     padding-top: 10px;
 }
 
+.lni.lni-phone {
+    font-size: 35px;
+    padding-top: 12px;
+}
+
 .whatsapp:hover {
     color: #006635;
     background-color: #00E777;
+}
+
+.phone:hover {
+    color: #891771;
+    background-color: #BF159B;
 }
 
 .copyright {
